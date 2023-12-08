@@ -1,3 +1,4 @@
+/* //Characters// */
 .container-personajes{
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +33,7 @@ p{
     padding: 6px;
     
 }
-
+/* //Paginacion// */
 button{
   margin: 2px;
   background: #203A43;
@@ -61,3 +62,16 @@ li{
     
   
 }
+
+/* //Tittle// */
+
+.TittleContainer{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid ;
+    background-color: #0F2027;
+    padding: 50px;
+}
+

@@ -33,7 +33,10 @@ function App() {
 
   return (  
   <>
-    
+    <div className='TittleContainer'>
+      <h1>Luky and Morty API</h1>
+
+    </div>
     <Paginacion 
        prev={info.prev}
        next={info.next}
@@ -41,6 +44,9 @@ function App() {
        siguiente={siguiente}
     />
     <Characters characters={characters} />
+    
+   
+    <footer> </footer>
     </>
   );
 }
