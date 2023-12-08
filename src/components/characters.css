@@ -1,0 +1,63 @@
+.container-personajes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.container-card :hover{
+    box-shadow: 0 0 10px rgb(69, 69, 69);
+    border-radius: 5%;
+}
+.container-card{
+    margin: 10px;
+    border-radius: 5%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+img{
+    border-radius: 5%;
+}
+
+h5{
+    text-align: center;
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+    padding: 6px;
+    
+}
+
+button{
+  margin: 2px;
+  background: #203A43;
+  
+  
+  
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+   
+}
+    
+
+
+
+
+li{
+    display: flex;
+    justify-content: center;
+   
+    
+  
+}
