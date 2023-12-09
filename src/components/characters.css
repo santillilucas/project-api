@@ -36,7 +36,7 @@ p{
 /* //Paginacion// */
 button{
   margin: 2px;
-  background: #203A43;
+  
   
   
   
@@ -48,6 +48,7 @@ ul{
     flex-direction: row;
     justify-content: center;
     list-style: none;
+    
    
 }
     
@@ -58,6 +59,7 @@ ul{
 li{
     display: flex;
     justify-content: center;
+    
    
     
   
@@ -74,4 +76,65 @@ li{
     background-color: #0F2027;
     padding: 50px;
 }
+
+.footer{
+    background-color: #0F2027;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Rutas */
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+label{
+    color: black;
+}
+
+.nav-botones{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+/* ///AboutUs */
+
+.containerInfo h4{
+    color: black;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.containerInfo p{
+  color: black;
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace ;
+  font-weight: 800;
+  padding: 0 20px;
+}
+
+
+
+
+
+
 

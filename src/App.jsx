@@ -1,6 +1,9 @@
 import {useState,  useEffect } from 'react';
 import Characters from "./components/Characters";
 import Paginacion from './components/Paginacion';
+import { Link, NavLink } from 'react-router-dom'
+import Contact from './components/Contact';
+import AboutUs from './components/AboutUs';
 
 
 function App() {
@@ -32,10 +35,17 @@ function App() {
 
 
   return (  
-  <>
-    <div className='TittleContainer'>
-      <h1>Luky and Morty API</h1>
+  <> 
+    <div className='nav-botones'>
+    <NavLink to={'/contact'}><button className='boton-contacto'>contact</button> </NavLink>
+    <NavLink to={'aboutUs'}> <button className='boton-aboutUs'>AboutUs</button></NavLink>
+    </div>
 
+   
+    
+    <div className='TittleContainer'>
+    
+      <h1>Luky and Morty API</h1> 
     </div>
     <Paginacion 
        prev={info.prev}
@@ -46,7 +56,7 @@ function App() {
     <Characters characters={characters} />
     
    
-    <footer> </footer>
+    <footer><h4 className='footer'>Powerd by Lucas Santilli</h4> </footer>
     </>
   );
 }
