@@ -1,11 +1,23 @@
 import React from 'react'
 import './characters.css'
+import App from '../App.jsx'
+import Contact from './Contact.jsx'
+import {NavLink} from "react-router-dom"
+
+
 
 
 
 function AboutUs() {
   return (
     <>
+     <div>
+     <NavLink to={'/'}><button className='boton-contacto'>home</button> </NavLink>
+     <NavLink to={'/contact'}><button className='boton-contacto'>Contact</button> </NavLink>
+     </div>
+    
+   
+    
     
      <h1 className='contacto'>Sobre Nosotros</h1>
      <div className='containerInfo'>

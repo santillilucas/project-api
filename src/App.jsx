@@ -56,7 +56,7 @@ function App() {
     <Characters characters={characters} />
     
    
-    <footer><h4 className='footer'>Powerd by Lucas Santilli</h4> </footer>
+    <footer><h4 className='footer'>Powered by Lucas Santilli</h4> </footer>
     </>
   );
 }

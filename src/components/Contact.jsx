@@ -1,9 +1,15 @@
 import React from 'react'
 import './characters.css'
+import {NavLink} from "react-router-dom"
+
 
 function Contact() {
   return ( 
   <>
+  <div>
+     <NavLink to={'/'}><button className='boton-contacto'>Home</button> </NavLink>
+     <NavLink to={'/aboutUs'}><button className='boton-contacto'>AboutUs</button> </NavLink>
+     </div>
     
     <h1 className='contacto'>Contact</h1>
     <div className='containerForm'>
