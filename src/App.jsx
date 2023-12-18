@@ -6,10 +6,12 @@ import Contact from './components/Contact';
 import AboutUs from './components/AboutUs';
 
 
+
 function App() {
   const [info, setInfo] = useState([])
   const [characters, setCharacters] = useState([]);
   const initialUrl = 'https://rickandmortyapi.com/api/character';
+  
 
     function fetchCharacters(url) {
       
@@ -33,9 +35,14 @@ function App() {
       fetchCharacters(info.next);
     };
 
+   
+
+  
+
 
   return (  
   <> 
+   
     <div className='nav-botones'>
     <NavLink to={'/contact'}><button className='boton-contacto'>contact</button> </NavLink>
     <NavLink to={'aboutUs'}> <button className='boton-aboutUs'>AboutUs</button></NavLink>
@@ -54,6 +61,7 @@ function App() {
        siguiente={siguiente}
     />
     <Characters characters={characters} />
+    
     
    
     <footer><h4 className='footer'>Powered by Lucas Santilli</h4> </footer>
