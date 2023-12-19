@@ -42,7 +42,7 @@ function App() {
 
   return (  
   <> 
-   
+
     <div className='nav-botones'>
     <NavLink to={'/contact'}><button className='boton-contacto'>contact</button> </NavLink>
     <NavLink to={'aboutUs'}> <button className='boton-aboutUs'>AboutUs</button></NavLink>
